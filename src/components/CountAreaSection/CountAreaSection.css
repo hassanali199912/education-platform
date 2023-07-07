@@ -1,0 +1,51 @@
+
+/* #region count__area */
+
+
+.count__area .count__width {
+    background: #D2093C;
+    padding-top: 50px;
+    padding-bottom: 50px
+}
+
+.count__area .count__width .col-lg-3 {
+    border-left: 1px solid rgba(255, 255, 255, .2)
+}
+
+.count__area .count__width .col-lg-3:last-child {
+    border-left: none
+}
+
+.count__area .count__width .count__content {
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px
+}
+
+.count__area .count__width .count__content .count__content--paragraph {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 700;
+    margin: 0;
+    color: #fff
+}
+
+.count__area .count__width .count__content .count__content--title-1 {
+    font-size: 60px;
+    line-height: 75px;
+    font-weight: 700;
+    margin: 8px 0 5px;
+    color: #fff
+}
+
+.count__area .count__width .count__content .count__content--paragraph2 {
+    font-size: 12px;
+    line-height: 15px;
+    font-weight: 600;
+    margin: 0;
+    letter-spacing: 3px;
+    color: #fff;
+    text-transform: uppercase
+}
+/* #endregion */
+

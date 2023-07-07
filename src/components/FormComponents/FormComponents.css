@@ -1,0 +1,195 @@
+
+/* #region react- (login and singup) -page */
+
+
+.react-login-page, .react-login-page.react-signup-page {
+    background: url('./../../../public/assets/images/login/1.jpg') center top no-repeat;
+    background-size: cover
+}
+
+.react-login-page .login-left-content h1 {
+    font-size: 50px;
+    font-weight: 700;
+    color: #0F1216;
+    margin: 0 0 18px
+}
+
+.react-login-page .login-left-content p {
+    margin: 0 0 50px;
+    font-size: 17px;
+    color: #55545b
+}
+
+.react-login-page .login-left-content p a {
+    font-weight: 600;
+    color: #3270fc
+}
+
+.react-login-page .login-left-content p a:hover {
+    color: #55545b
+}
+
+.react-login-page .login-right-form {
+    background: #fff;
+    padding: 50px;
+    max-width: 470px;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 40px 60px rgba(15, 18, 22, .08)
+}
+
+.react-login-page .login-right-form form .login-top {
+    text-align: center;
+    padding-bottom: 35px
+}
+
+.react-login-page .login-right-form form .login-top h3 {
+    margin: 0 0 8px;
+    color: #0F1216;
+    font-size: 26px;
+    font-weight: 700
+}
+
+.react-login-page .login-right-form form .login-top p {
+    margin: 0;
+    font-size: 16px;
+    color: #4D5765
+}
+
+.react-login-page .login-right-form form .social-links {
+    text-align: center
+}
+
+.react-login-page .login-right-form form .social-links li {
+    margin-left: 6px;
+    margin-right: 0
+}
+
+.react-login-page .login-right-form form .social-links li a {
+    border-radius: 50%;
+    background: #3270FC;
+    color: #fff;
+    width: 44px;
+    height: 44px;
+    line-height: 44px;
+    border: none
+}
+
+.react-login-page .login-right-form form .social-links li a:hover {
+    opacity: .9
+}
+
+.react-login-page .login-right-form form .social-links li:last-child a {
+    border: 2px solid #E8ECF0;
+    font-size: 16px;
+    background: 0 0;
+    color: #9EA9B6;
+    position: relative;
+    top: 3px
+}
+
+.react-login-page .login-right-form form .social-links li:last-child a:hover {
+    background: #3270FC;
+    border-color: #3270FC;
+    color: #fff
+}
+
+.react-login-page .login-right-form form span.back-or {
+    display: block;
+    font-size: 14px;
+    color: #7a797f;
+    text-align: center;
+    font-weight: 500;
+    margin: 20px 0 16px
+}
+
+.react-login-page .login-right-form form p label {
+    display: block;
+    color: #0F1216;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0 0 8px
+}
+
+.react-login-page .login-right-form form input {
+    border: none;
+    background: #F2F4F9;
+    width: 100%;
+    padding: 12px 20px;
+    border-radius: 6px
+}
+
+.react-login-page .login-right-form form [type=submit] {
+    background: #3270FC;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 12px 38px;
+    transition: all .5s ease 0s;
+    border: none;
+    width: 100%
+}
+
+.react-login-page .login-right-form form [type=submit]:hover {
+    opacity: .9
+}
+
+.react-login-page .login-right-form form [type=submit] svg {
+    width: 18px;
+    transform: rotate(180deg)
+}
+
+.react-login-page .login-right-form form .signup {
+    font-weight: 500;
+    font-size: 14px;
+    color: #7a797f;
+    font-style: normal;
+    text-align: center;
+    display: block;
+    padding-top: 20px
+}
+
+.react-login-page .login-right-form form .signup a {
+    color: #3270fc
+}
+
+.react-login-page .login-right-form form .signup a:hover {
+    color: #7a797f
+}
+
+.react-login-page .login-right-form form .back-check-box {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    color: #7a797f;
+    margin-top: -16px;
+    margin-bottom: 35px
+}
+
+.react-login-page .login-right-form form .back-check-box input {
+    width: auto;
+    margin-left: 5px
+}
+
+.react-login-page .login-right-form form .back-check-box p {
+    margin: 0;
+    flex: 1;
+    text-align: right
+}
+
+.react-login-page .login-right-form form .back-check-box em {
+    font-weight: 600;
+    font-style: normal;
+    color: #00306e
+}
+
+.react-login-page .container {
+    max-width: 1050px
+}
+
+.react-login-page .row.align-center {
+    align-items: center
+}
+/* #endregion */

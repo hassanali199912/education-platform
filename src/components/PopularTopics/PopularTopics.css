@@ -1,0 +1,237 @@
+
+/* #region react_populars_topics */
+
+.react_populars_topics .container {
+    max-width: 1200px
+}
+
+.react_populars_topics .item__inner {
+    border: 2px solid rgba(15, 22, 41, .078);
+    border-radius: 6px;
+    padding: 40px 35px 35px;
+    position: relative;
+    transition: all .5s ease 0s;
+    margin-bottom: 30px;
+    text-align: center
+}
+
+.react_populars_topics .item__inner:before {
+    position: absolute;
+    content: "";
+    left: 0;
+    right: 0;
+    top: -3px;
+    border-radius: 6px 6px 0 0;
+    height: 8px;
+    width: 100%;
+    z-index: 1;
+    border-top: 3px solid #3270FC;
+    transition: all .5s ease 0s;
+    opacity: 0
+}
+
+.react_populars_topics .item__inner h3 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 26px;
+    margin: 25px 0 0
+}
+
+.react_populars_topics .item__inner h3 a {
+    color: #00306e
+}
+
+.react_populars_topics .item__inner h3 a:hover {
+    color: #3270fc
+}
+
+.react_populars_topics .item__inner p {
+    font-size: 16px;
+    color: #5B5F64;
+    margin: 0;
+    line-height: 20px
+}
+
+.react_populars_topics .item__inner:hover {
+    box-shadow: 0 30px 50px 0 rgba(0, 15, 56, .1), inset 0 3px 0 0 rgba(42, 109, 245, .004);
+    border-color: #fff
+}
+
+.react_populars_topics .item__inner:hover:before {
+    opacity: 1
+}
+
+.react_populars_topics.react_populars_topics .item__inner {
+    text-align: right
+}
+
+.react_populars_topics.react_populars_topics2 .item__inner {
+    border: none;
+    border-radius: 10px;
+    padding: 40px 35px 35px;
+    position: relative;
+    transition: all .5s ease 0s;
+    margin-bottom: 30px;
+    text-align: right;
+    box-shadow: 0 30px 60px rgba(15, 18, 22, .1)
+}
+
+.react_populars_topics.react_populars_topics2 .item__inner:before {
+    opacity: 0
+}
+
+.react_populars_topics.react_populars_topics2 .item__inner h3 {
+    font-weight: 700;
+    margin: 25px 0 14px
+}
+
+.react_populars_topics.react_populars_topics2 .item__inner h3 a {
+    color: #0F1216;
+    font-size: 20px;
+    font-weight: 700
+}
+
+.react_populars_topics.react_populars_topics2 .item__inner h3 a:hover {
+    color: #3270fc
+}
+
+.react_populars_topics.react_populars_topics2 .item__inner p {
+    font-size: 16px;
+    color: #5B5F64;
+    margin: 0;
+    line-height: 24px
+}
+
+.react_populars_topics.react_populars_topics2 .item__inner a {
+    font-size: 14px;
+    font-weight: 600;
+    color: #0F1216;
+    display: inline-block;
+    margin-top: 16px
+}
+
+.react_populars_topics.react_populars_topics2 .item__inner a svg {
+    width: 18px;
+    rotate: 180deg
+}
+
+.react_populars_topics.react_populars_topics2 .item__inner a:hover {
+    color: #3270fc
+}
+
+.react_populars_topics.react_populars_topics2 .item__inner:hover {
+    box-shadow: 0 30px 50px 0 rgba(0, 15, 56, .1), inset 0 3px 0 0 rgba(42, 109, 245, .004);
+    border-color: #fff
+}
+
+.react_populars_topics.react_populars_topics2 .item__inner:hover:before {
+    opacity: 0
+}
+
+.react_populars_topics.react_populars_topics_about .react__title__section-all {
+    background: #F2F4F9;
+    max-width: 1350px;
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-bottom: 200px;
+    border-radius: 10px
+}
+
+.react_populars_topics.react_populars_topics_about .container {
+    margin-top: -200px
+}
+
+.react_populars_topics.react_populars_topics_about.react_populars_topics.react_populars_topics2 .item__inner {
+    background: #fff
+}
+.react__title__section-all h2 {
+    font-size: 44px;
+    font-weight: 700;
+    color: #0F1216;
+    margin: 0 0 10px;
+    line-height: 54px
+}
+
+.react__title__section-all h6 {
+    font-size: 16px;
+    line-height: 20px;
+    color: #D2093C;
+    font-weight: 600;
+    margin: 0 0 12px
+}
+
+.react_popular_topics .item__inner {
+    position: relative;
+    transition: all .5s ease 0s;
+    margin-bottom: 30px
+}
+
+.react_popular_topics .item__inner .icon img {
+    width: 100%
+}
+
+.react_popular_topics .item__inner:before {
+    position: absolute;
+    content: "";
+    left: 0;
+    right: 0;
+    top: 0;
+    border-radius: 6px 6px 0 0;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    background: linear-gradient(180deg, rgba(15, 18, 22, 0) 46.67%, rgba(15, 18, 22, .9) 91%);
+    transition: all .5s ease 0s;
+    bottom: 0
+}
+
+.react_popular_topics .item__inner .react-content {
+    position: absolute;
+    left: 20px;
+    right: 20px;
+    bottom: 20px;
+    z-index: 2
+}
+
+.react_popular_topics .item__inner .react-content h3 {
+    font-size: 22px;
+    color: #fff;
+    line-height: 27.65px;
+    margin: 0;
+    font-weight: 700
+}
+
+.react_popular_topics .item__inner .react-content h3 a {
+    color: #fff
+}
+
+.react_popular_topics .item__inner .react-content h3 a:hover {
+    color: #b5b2b2
+}
+
+.react_popular_topics .item__inner a.r__link {
+    font-size: 14px;
+    color: #fff;
+    line-height: 17.6px;
+    margin: 0;
+    font-weight: 700
+}
+
+.react_popular_topics .item__inner a.r__link svg {
+    width: 18px;
+    rotate: 180deg
+}
+
+.react_popular_topics .item__inner a.r__link:hover {
+    color: #b5b2b2
+}
+
+.react_popular_topics .item__inner:hover:before {
+    background: rgba(15, 18, 22, .8)
+}
+
+.react_popular_topics .item__inner:hover a.r__link {
+    color: #b5b2b2
+}
+
+/* #endregion */

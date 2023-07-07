@@ -1,0 +1,283 @@
+
+/* #region hero3__area */
+
+.hero3__area {
+    overflow: hidden;
+    background: url('./../../../public/assets/images/banner2/bg2.png') center top no-repeat;
+    padding-bottom: 180px;
+    padding-top: 160px;
+    background-size: cover
+}
+
+.hero3__area .about__content {
+    max-width: 640px;
+    margin: 0 auto;
+    padding-top: 30px
+}
+
+.hero3__area .about__content ul {
+    margin: 0;
+    padding: 0;
+    display: flex
+}
+
+.hero3__area .about__content ul li {
+    display: flex;
+    align-items: center;
+    border-top: 1px solid #EDEDED;
+    padding: 30px 28px
+}
+
+.hero3__area .about__content ul li:first-child {
+    border-top: none
+}
+
+.hero3__area .about__content ul li .icon {
+    margin-left: 15px
+}
+
+.hero3__area .about__content ul li .icon img {
+    margin-top: -50px
+}
+
+.hero3__area .about__content ul li .text {
+    flex: 1
+}
+
+.hero3__area .about__content ul li .text h4 {
+    margin: 0 0 14px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    direction: ltr
+}
+
+.hero3__area .about__content ul li .text p {
+    margin: 0;
+    font-size: 16px;
+    line-height: 22px;
+    color: #5B5F64
+}
+
+.hero3__area .about__content ul li a {
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+    border: 2px solid #EDEDED;
+    text-align: center;
+    line-height: 36px
+}
+
+.hero3__area .about__content ul li a svg {
+    width: 18px;
+    color: #00306E
+}
+
+.hero3__area .about__content ul li a:hover {
+    background: #3270fc;
+    color: #fff
+}
+
+.hero3__area .about__content ul li a:hover svg {
+    color: #fff
+}
+
+.hero3__area .hero3__content {
+    text-align: center
+}
+
+.hero3__area .hero3__content .hero3__title {
+    font-size: 70px;
+    line-height: 74px;
+    font-weight: 600;
+    color: #0F1216;
+    margin: 0
+}
+
+.hero3__area .hero3__content .hero3__title em {
+    color: #3270FC;
+    font-style: normal
+}
+
+.hero3__area .hero3__content .search-form {
+    background: #fff;
+    border-radius: 0;
+    padding: 14px 18px 16px 25px;
+    box-shadow: 0 20px 20px rgba(0, 14, 32, .1);
+    max-width: 570px;
+    margin: 40px auto 25px;
+    position: relative;
+    border-right: 3px solid #3270FC
+}
+
+.hero3__area .hero3__content .search-form [type=text] {
+    border: none;
+    color: #4b5b70;
+    font-size: 14px;
+    outline: 0;
+    background: 0 0;
+    width: 100%
+}
+
+.hero3__area .hero3__content .search-form button {
+    border: none;
+    background: 0 0;
+    padding: 0;
+    position: absolute;
+    left: 20px
+}
+
+.hero3__area .hero3__content .hero3__paragraph {
+    font-size: 16px;
+    line-height: 20.11px;
+    color: #00306E
+}
+
+.hero3__area .hero3__content .hero3__paragraph a {
+    color: #3270fc
+}
+
+.hero3__area .hero3__content .hero3__paragraph a svg {
+    width: 18px;
+    rotate: 180deg
+}
+
+.p-relative {
+    position: relative
+}
+
+.hero3__image {
+    margin-left: 0;
+    position: absolute;
+    left: -10%;
+    top: 8%
+}
+
+.hero3__image .hero3__image-1 {
+    border-radius: 50%
+}
+
+.hero3__image-2 {
+    position: absolute;
+    top: 56%;
+    left: -22%;
+    -webkit-animation: hero3-image 3s linear infinite alternate;
+    -moz-animation: hero3-image 3s linear infinite alternate;
+    -o-animation: hero3-image 3s linear infinite alternate;
+    animation: hero3-image 3s linear infinite alternate
+}
+
+.hero3__shape img {
+    position: absolute;
+    z-index: 1
+}
+
+.hero3__shape-1 {
+    top: 32%;
+    right: 2%;
+    -webkit-animation: hero-leaf 3s linear infinite alternate;
+    -moz-animation: hero-leaf 3s linear infinite alternate;
+    -o-animation: hero-leaf 3s linear infinite alternate;
+    animation: hero-leaf 3s linear infinite alternate
+}
+
+.hero3__shape-2 {
+    top: 44%;
+    right: 4.5%;
+    -webkit-animation: hero-leaf-2 3s linear infinite alternate;
+    -moz-animation: hero-leaf-2 3s linear infinite alternate;
+    -o-animation: hero-leaf-2 3s linear infinite alternate;
+    animation: hero-leaf-2 3s linear infinite alternate
+}
+
+.hero3__shape-3 {
+    top: 57%;
+    right: 72%;
+    -webkit-animation: hero-leaf-4 3s linear infinite alternate;
+    -moz-animation: hero-leaf-4 3s linear infinite alternate;
+    -o-animation: hero-leaf-4 3s linear infinite alternate;
+    animation: hero-leaf-4 3s linear infinite alternate
+}
+
+.hero3__shape-4 {
+    top: 14.5%;
+    right: 19%;
+    -webkit-animation: hero-leaf-4 3s linear infinite alternate;
+    -moz-animation: hero-leaf-4 3s linear infinite alternate;
+    -o-animation: hero-leaf-4 3s linear infinite alternate;
+    animation: hero-leaf-4 3s linear infinite alternate
+}
+
+.hero3__shape-5 {
+    top: 69%;
+    right: 9%;
+    -webkit-animation: hero-leaf 3s linear infinite alternate;
+    -moz-animation: hero-leaf 3s linear infinite alternate;
+    -o-animation: hero-leaf 3s linear infinite alternate;
+    animation: hero-leaf 3s linear infinite alternate
+}
+
+.hero3__shape-6 {
+    top: 30%;
+    right: 0;
+    -webkit-animation: hero-leaf-2 3s linear infinite alternate;
+    -moz-animation: hero-leaf-2 3s linear infinite alternate;
+    -o-animation: hero-leaf-2 3s linear infinite alternate;
+    animation: hero-leaf-2 3s linear infinite alternate
+}
+
+@keyframes hero-leaf {
+    0% {
+        transform: translateY(-50px)
+    }
+
+    100% {
+        transform: translateY(0)
+    }
+}
+
+@keyframes hero-leaf-2 {
+    0% {
+        transform: translateY(0)
+    }
+
+    100% {
+        transform: translateY(-30px)
+    }
+}
+
+@keyframes hero3-image {
+    0% {
+        transform: translateY(-20px)
+    }
+
+    100% {
+        transform: translateY(0)
+    }
+}
+
+@keyframes hero-leaf-4 {
+    0% {
+        transform: translateX(-30px)
+    }
+
+    100% {
+        transform: translateX(0)
+    }
+}
+
+@keyframes upDown {
+    0% {
+        transform: translate(-50%, -50%)
+    }
+
+    50% {
+        transform: translate(-50%, -30%)
+    }
+
+    100% {
+        transform: translate(-50%, -50%)
+    }
+}
+
+/* #endregion */

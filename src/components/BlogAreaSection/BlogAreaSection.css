@@ -1,0 +1,174 @@
+
+/* #region react-blog__area */
+
+
+.react-blog__area.graybg-home {
+    background: #F5F5F5
+}
+
+.react-blog__area.graybg-home .react__title__section h2 {
+    color: #00306e
+}
+
+.react-blog__area.graybg-home .b_date {
+    background: #D2093C
+}
+
+.react-blog__area.graybg-home .blog__card--title a {
+    color: #00306e
+}
+
+.react-blog__area.graybg-home .blog__card--title a:hover {
+    color: #D2093C
+}
+
+.react-blog__area .blog__subtitle {
+    font-size: 16px;
+    font-weight: 500;
+    color: #2a6df5
+}
+
+.react-blog__area .react__title__section h2 {
+    font-size: 44px;
+    font-weight: 700;
+    color: #0F1216;
+    margin: 0 0 10px;
+    line-height: 54px
+}
+
+.react-blog__area .react__title__section h6 {
+    font-size: 16px;
+    line-height: 20px;
+    color: #D2093C;
+    font-weight: 600;
+    margin: 0
+}
+
+.react-blog__area .blog__card {
+    border-radius: 6px;
+    box-shadow: 0 30px 60px 0 rgba(0, 15, 56, .1);
+    margin: 0 3px
+}
+
+.react-blog__area .blog__thumb {
+    position: relative;
+    overflow: hidden
+}
+
+.react-blog__area .blog__thumb--image img {
+    border-radius: 6px 6px 0 0;
+    transition: all .5s ease 0s
+}
+
+.react-blog__area .blog__thumb--image img:hover {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1)
+}
+
+.react-blog__area .b_date {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 18px;
+    padding: 4px 12px 5px;
+    color: #fff;
+    background-color: #3270FC;
+    border-radius: 4px;
+    position: absolute;
+    z-index: 1;
+    left: 6%;
+    top: 8%;
+    font-style: normal
+}
+
+.react-blog__area .blog__card--content {
+    padding: 28px 36px 32px 37px
+}
+
+.react-blog__area .blog__card--date {
+    font-size: 16px;
+    font-weight: 400;
+    color: #D2093C
+}
+
+.react-blog__area .blog__card--title {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    padding: 5px 0 0;
+    margin: 0 0 16px
+}
+
+.react-blog__area .blog__card--title a {
+    color: #0F1216
+}
+
+.react-blog__area .blog__card--title:hover a {
+    color: #3270FC
+}
+
+.react-blog__area .blog__card--link {
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 28px;
+    color: #00306e
+}
+
+.react-blog__area .blog__card--link:hover {
+    color: #3270fc
+}
+
+.react-blog__area .blog__card--link-icon {
+    vertical-align: middle;
+    padding-left: 5px
+}
+
+.react-blog__area .blog__card--icon {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative
+}
+
+.react-blog__area .blog__card--icon-1 svg {
+    height: 17px;
+    line-height: 10px;
+    vertical-align: sub;
+    color: #5B5F64
+}
+
+.react-blog__area .blog__card--icon-1 span {
+    font-size: 16px;
+    font-weight: 400;
+    color: #5B5F64;
+    padding-left: 2px;
+    line-height: 10px;
+    vertical-align: middle
+}
+
+.react-blog__area .blog__card--icon-2 {
+    display: flex
+}
+
+.react-blog__area .blog__card--icon-2-first {
+    margin-right: 17px
+}
+
+.react-blog__area .blog__card--icon-2-first svg {
+    height: 17px
+}
+
+.react-blog__area .blog__card--icon-2-first span {
+    vertical-align: middle
+}
+
+.react-blog__area .blog__card--icon-2-second svg {
+    height: 17px
+}
+
+.react-blog__area .blog__card--icon-2-second span {
+    vertical-align: middle
+}
+/* #endregion */
+

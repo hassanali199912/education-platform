@@ -1,0 +1,48 @@
+
+
+/* #region backscrollUp */
+
+#backscrollUp {
+    position: fixed;
+    bottom: 40px;
+    right: 15px;
+    transition: all .5s ease;
+    z-index: 99999;
+    cursor: pointer;
+    display: none;
+    background: #3270FC;
+    border-radius: 3px
+}
+
+#backscrollUp.home {
+    background: #d2093c
+}
+
+#backscrollUp span {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 3px;
+    font-size: 22px;
+    color: #fff;
+    text-align: center;
+    display: none;
+    transition: all .5s ease
+}
+
+#backscrollUp span:before {
+    transition: all .5s ease;
+    display: block;
+    margin: 0;
+    font-size: 22px
+}
+
+#backscrollUp span:hover {
+    opacity: .9
+}
+
+#backscrollUp.react__up___scroll span {
+    display: block
+}
+
+/* #endregion */
